@@ -1,4 +1,4 @@
-# API Exercise Node.js
+# API Exercise - Node.js
 
 A simple, prototyping account management API service developing with Node.js, that can:
 
@@ -11,7 +11,7 @@ A simple, prototyping account management API service developing with Node.js, th
 * Node Js v10.x+
 * MongoDB v3.6+
 
-## How To Use?
+## How To Use
 
 1. Clone this project to local.
 2. Run command `npm install` under the project's folder at the first time.
@@ -19,7 +19,7 @@ A simple, prototyping account management API service developing with Node.js, th
 
 ### Options: Environment Variable
 
-* Port: the number of HTTP port for listening. Default: `3000`
+* PORT: the number of HTTP port for listening. Default: `3000`
 * DB_URL: the [connection URL](https://docs.mongodb.com/manual/reference/connection-string/) to connect the MongoDB for data storage. Default: `mongodb://localhost/api-exercise`
 
 ## Testing, Documentation
