@@ -56,15 +56,15 @@ app.use(function(err, req, res, next) {
 });
 
 const main = async() => {
-    // Connect database
-    await db.connect();
-    console.log("DB connected successfully.");
+  // Connect database
+  await db.connect();
+  console.log("DB connected successfully.");
 
-    // Start web service
-    app.listen(port, () => console.log(`Server running at http://localhost:${port}`));
+  // Start web service
+  app.listen(port, () => console.log(`Server running at http://localhost:${port}`));
 }
 
 main().catch(err => {
-    console.error(`Cannot start server! error: ${err}`);
-    process.exit(1);
+  console.error(`Cannot start server! error: ${err}`);
+  process.exit(1);
 });
